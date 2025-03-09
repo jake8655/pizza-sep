@@ -109,6 +109,12 @@ def remove_order():
 
 
 def main_loop():
+    try:
+        with open("./db.json", "x") as file:
+            file.write("[]")
+    except FileExistsError:
+        pass
+
     key = input(
         """r = read
 a = add new order
