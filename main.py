@@ -98,11 +98,7 @@ def remove_order():
     with open("./db.json") as file:
         data = json.load(file)
 
-    result = []
-    for entry in data:
-        if entry["name"] == name:
-            continue
-        result.append(entry)
+    result = filter(lambda x: x["name"] != name, data)
 
     with open("./db.json", "w") as file:
         json.dump(result, file)
