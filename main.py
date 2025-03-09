@@ -44,10 +44,7 @@ def append_order():
 def sum_money():
     with open("./db.json") as file:
         data = json.load(file)
-        total = 0
-
-        for entry in data:
-            total += entry["price"]
+        total = sum(entry["price"] for entry in data)
 
         print(f"All moni: {total}")
 
