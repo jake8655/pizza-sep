@@ -95,7 +95,7 @@ def remove_order():
     with open("./db.json") as file:
         data = json.load(file)
 
-    result = filter(lambda x: x["name"] != name, data)
+    result = list(filter(lambda x: x["name"] != name, data))
 
     with open("./db.json", "w") as file:
         json.dump(result, file)
@@ -139,7 +139,7 @@ x = exit
 a = add new order
 s = search by name
 p = search by pizza type
-r = remove order by name
+d = remove order by name
 $ = moni
 x = exit
 """
