@@ -2,12 +2,12 @@
 Naprogramoval som program, ktorý spravuje systém na objednávanie pizze z reštaurácie.
 
 ## Obsah
-1. [Úvod](#uvod)
-1. [Zobrazenie objednávok](#zobrazenie-objednavok)
-1. [Pridanie objednávky](#pridanie-objednavky)
-1. [Hľadanie objednávky podľa mena](#hladanie-objednavky-podla-mena)
-1. [Hľadanie objednávky podľa typu pizze](#hladanie-objednavky-podla-typu-pizze)
-1. [Odstránenie objednávky podľa mena](#odstranenie-objednavky-podla-mena)
+1. [Úvod](#úvod)
+1. [Zobrazenie objednávok](#zobrazenie-objednávok)
+1. [Pridanie objednávky](#pridanie-objednávky)
+1. [Hľadanie objednávky podľa mena](#hľadanie-objednávky-podľa-mena)
+1. [Hľadanie objednávky podľa typu pizze](#hľadanie-objednávky-podľa-typu-pizze)
+1. [Odstránenie objednávky podľa mena](#odstránenie-objednávky-podľa-mena)
 1. [Zobrazenie celkovej sumy](#zobrazenie-celkovej-sumy)
 
 ### Úvod
