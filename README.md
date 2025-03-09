@@ -9,6 +9,7 @@ Naprogramoval som program, ktorý spravuje systém na objednávanie pizze z reš
 1. [Hľadanie objednávky podľa typu pizze](#hľadanie-objednávky-podľa-typu-pizze)
 1. [Odstránenie objednávky podľa mena](#odstránenie-objednávky-podľa-mena)
 1. [Zobrazenie celkovej sumy](#zobrazenie-celkovej-sumy)
+1. [Záver](#záver)
 
 ### Úvod
 Zadanie je vytvoriť program, ktorý v **CLI** forme umožňuje užívateľom nasledovať nasledovné operácie:
